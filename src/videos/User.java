@@ -29,7 +29,7 @@ public class User {
 
         String userOption = JOptionPane.showInputDialog("1:[Add tag] 0:[Exit]");
 
-        while (userOption.equals("0")) {
+        while (!userOption.equals("0")) {
 
             switch (userOption) {
                 case "1":
